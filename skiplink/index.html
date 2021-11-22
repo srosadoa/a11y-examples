@@ -12,40 +12,34 @@
 <body>
   <header>
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a tabindex="1" href="#">Home</a></li>
       <li>
-        <a href="#">Screen Readers</a>
+        <a tabindex="3" href="#">Screen Readers</a>
       </li>
       <li>
-        <a href="#">Accessible HTML</a>
+        <a tabindex="4" href="#">Accessible HTML</a>
       </li>
       <li>
-        <a href="#">ARIA</a>
+        <a tabindex="5" href="#">ARIA</a>
       </li>
       <li>
-        <a href="#">Focus Management</a>
+        <a tabindex="6" href="#">Focus Management</a>
       </li>
       <li>
-        <a href="#">Visual Considerations</a>
+        <a tabindex="7" href="#">Visual Considerations</a>
       </li>
       <li>
-        <a href="#">Tooling</a>
+        <a tabindex="8" href="#">Tooling</a>
       </li>
       <li>
-        <a href="#">Resources</a>
+        <a tabindex="9" href="#">Resources</a>
       </li>
     </ul>
   </header>
   <div id="container">
     <h1>Skip link</h1>
-    <div tabindex="1">
-      <button id="main">Skip to here!</button>
-    </div>
+    <button tabindex="2" id="main">Skip to here!</button>
   </div>
-  <script>
-    // At start, set focus on the first div
-    document.getElementsByTagName('div')[0].focus();
-  </script>
 </body>
 
 </html>
